@@ -1,0 +1,71 @@
+repo_name: rongfengliang/zombodb_opendistro-for-elasticsearch
+report_id: c5f9110b1aa8245104a85fded63a88d4
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-31T08:03:14+00:00'
+requested_by: rongfengliang
+provider: github
+branch: master
+detected_tools_count: 5
+tools:
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/rongfengliang/zombodb_opendistro-for-elasticsearch/blob/master/docker-compose.yaml
+  detection_source: docker-compose.yaml
+  last_updated_by: rong
+  last_updated_on: 2020-02-13 06:07:47.000000000 Z
+- name: DB
+  description: 'Version control for databases: save, restore, and archive snapshots
+    of your database from the command line'
+  website_url: https://github.com/infostreams/db
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Database Tools
+  image_url: https://img.stackshare.io/service/11593/no-img.png
+  detection_source_url: https://github.com/rongfengliang/zombodb_opendistro-for-elasticsearch/blob/master/docker-compose.yaml
+  detection_source: docker-compose.yaml
+  last_updated_by: rong
+  last_updated_on: 2020-02-13 06:07:47.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/rongfengliang/zombodb_opendistro-for-elasticsearch
+  detection_source: Repo Metadata
+- name: Kibana
+  description: Visualize your Elasticsearch data and navigate the Elastic Stack
+  website_url: https://www.elastic.co/kibana
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Monitoring Tools
+  image_url: https://img.stackshare.io/service/1722/Image_2019-05-20_at_4.53.31_PM.png
+  detection_source_url: https://github.com/rongfengliang/zombodb_opendistro-for-elasticsearch/blob/master/docker-compose.yaml
+  detection_source: docker-compose.yaml
+  last_updated_by: rong
+  last_updated_on: 2020-02-13 07:29:26.000000000 Z
+- name: Elasticsearch
+  description: Open Source, Distributed, RESTful Search Engine
+  website_url: https://www.elastic.co/products/elasticsearch
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Search as a Service
+  image_url: https://img.stackshare.io/service/841/Image_2019-05-20_at_4.58.04_PM.png
+  detection_source_url: https://github.com/rongfengliang/zombodb_opendistro-for-elasticsearch/blob/master/docker-compose.yaml
+  detection_source: docker-compose.yaml
+  last_updated_by: rong
+  last_updated_on: 2020-02-13 07:29:26.000000000 Z
